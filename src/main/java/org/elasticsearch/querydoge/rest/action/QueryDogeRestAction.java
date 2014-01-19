@@ -188,7 +188,6 @@ public class QueryDogeRestAction<X> extends BaseRestHandler  {
 	 */
 	private static String veryConvertDogeQuery(RestRequest amazeRest)
 	{
-		JSONObject originalJson = new JSONObject(amazeRest.content().toUtf8());
 		JSONObject replaceJson = new JSONObject(amazeRest.content().toUtf8());
 		muchQueryConversion(new JSONObject(amazeRest.content().toUtf8()), replaceJson);
 		return replaceJson.toString();
