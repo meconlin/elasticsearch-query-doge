@@ -1,0 +1,56 @@
+ { 
+  "query": {
+    "filtered": {
+      "filter": {
+        "and": [
+          {
+            "so_terms": {
+              "gender": [
+                "m"
+              ]
+            }
+          },
+          {
+            "much_range": {
+              "ts": {
+                "to": 1388552400000,
+                "include_upper": false,
+                "from": 1357016400000,
+                "include_lower": true
+              }
+            }
+          },
+          {
+            "wow_terms": {
+              "gender": [
+                "m"
+              ]
+            }
+          }
+        ]
+      },
+      "much_query": {
+        "match_all": {}
+      }
+    }
+  },
+  "so_facets": {
+    "f1": {
+      "facet_filter": {
+        "exists": {
+          "field": "name"
+        }
+      },
+      "terms": {
+        "field": "name",
+        "size": 100
+      }
+    },
+    "event_counts": {
+      "date_histogram": {
+        "field": "ts",
+        "interval": "hour"
+      }
+    }
+  }
+}

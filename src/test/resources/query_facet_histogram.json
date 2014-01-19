@@ -1,0 +1,50 @@
+{
+   "query":{
+      "match_all":{}
+      },
+   "so_facets":{
+      "f1":{
+         "wow_facet_filter":{
+            "exists":{
+               "field":"name"
+            }
+         },
+         "such_terms":{
+            "field":"name",
+            "size":100
+         }
+      },
+      "int":{
+         "amaze_terms":{
+            "field":"int",
+            "size":100
+         }
+      },
+      "double":{
+         "so_terms":{
+            "field":"double",
+            "size":100
+         }
+      },
+
+      "long":{
+         "much_terms":{
+            "field":"long",
+            "so_size":100
+         }
+      },
+
+      "float":{
+         "terms":{
+            "wow_field":"float",
+            "size":100
+         }
+      },
+      "such_event_counts":{
+         "date_histogram":{
+            "field":"ts",
+            "interval":"hour"
+         }
+      }
+   }
+}

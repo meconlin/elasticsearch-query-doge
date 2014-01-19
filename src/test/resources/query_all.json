@@ -1,0 +1,5 @@
+ { 
+     "much_query": {
+       "match_all": {}
+     }
+ }

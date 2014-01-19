@@ -1,0 +1,29 @@
+ { 
+     "very_query": {
+       "match_all": {}
+     },
+     "so_facets":{
+	     "f1":{
+	         "amaze_facet_filter":{
+	            "exists":{
+	               "field":"name"
+	            }
+	         },
+	         "so_terms":{
+	            "field":"name",
+	            "size":100
+	         }
+	      },
+	      "f2":{
+	         "much_facet_filter":{
+	            "exists":{
+	               "field":"gender"
+	            }
+	         },
+	         "terms":{
+	            "field":"gender",
+	            "size":100
+	         }
+	      }
+ 	}
+ }
