@@ -169,8 +169,6 @@ public class QueryDogeTest extends TestCase {
 		assertEquals(answer.getJSONObject("_shards").get("successful"), this.numberOfShards*this.indices.length);
 	}
 	
-	/******/
-		
 	public void testRestEndPointBasics() throws Exception {
 		JSONObject bodySpecialSearch = new JSONObject(httpHelper.getAndReturnBody(all_indices_str+"/_dogesearch"));
 		JSONObject bodyRegularSearch = new JSONObject(httpHelper.getAndReturnBody(all_indices_str+"/_search"));
