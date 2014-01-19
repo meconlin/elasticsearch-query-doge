@@ -1,8 +1,13 @@
+
+
 Doge query syntax plugin for ElasticSearch
 ==================================
 
 Works just like regular Elasticsearch queries only so cool, much querying, wow fast, amaze syntax, very doge, such clustering.  
+  
 Distributed restful search and analytics has never been more doge!
+
+[![Build Status](https://mark-conlin.ci.cloudbees.com/buildStatus/icon?job=elasticsearch-query-doge)](https://mark-conlin.ci.cloudbees.com/job/elasticsearch-query-doge/)
 
 ![Doge](http://upload.wikimedia.org/wikipedia/en/4/4e/Shibe_Inu_Doge_meme.jpg)
 
