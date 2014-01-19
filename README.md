@@ -4,6 +4,8 @@ Doge query syntax plugin for ElasticSearch
 Works just like regular Elasticsearch queries only so cool, much querying, wow fast, amaze syntax, very doge, such clustering.  
 Distributed restful search and analytics has never been more doge!
 
+![Doge](http://upload.wikimedia.org/wikipedia/en/4/4e/Shibe_Inu_Doge_meme.jpg)
+
 1. Build this plugin:
 
         mvn clean compile test package 
@@ -95,7 +97,6 @@ OR so complex!
  }
 
 ```
-
 
 
 
