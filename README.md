@@ -1,10 +1,8 @@
 Doge query syntax plugin for ElasticSearch
 ==================================
 
-so cool, much querying, wow fast, amaze syntax, very doge, such clustering
-
-Works just like regular Elasticsearch queries only 
-This Term List plugin will do simple matching against the complete term list found directly in Lucene.
+Works just like regular Elasticsearch queries only so cool, much querying, wow fast, amaze syntax, very doge, such clustering.  
+Distributed restful search and analytics has never been more doge!
 
 1. Build this plugin:
 
