@@ -1,5 +1,4 @@
 
-
 Doge query syntax plugin for ElasticSearch
 ==================================
 
@@ -9,7 +8,7 @@ Distributed restful search and analytics has never been more doge!
 
 [![Build Status](https://mark-conlin.ci.cloudbees.com/buildStatus/icon?job=elasticsearch-query-doge)](https://mark-conlin.ci.cloudbees.com/job/elasticsearch-query-doge/)
 
-![Doge](http://upload.wikimedia.org/wikipedia/en/4/4e/Shibe_Inu_Doge_meme.jpg)
+![Doge](http://upload.wikimedia.org/wikipedia/en/5/5f/Original_Doge_meme.jpg)
 
 1. Build this plugin:
 
